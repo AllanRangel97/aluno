@@ -1,4 +1,5 @@
 FROM nginx:latest
 
-COPY . /usr/share/nginx/html/
+COPY pages/* /usr/share/nginx/html/
+
 
